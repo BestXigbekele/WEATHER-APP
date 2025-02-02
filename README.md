@@ -42,7 +42,7 @@ Welcome to the Web Weather App! This application allows users to check the curre
 1. Enter a city name in the search input.
 2. Click the "search icon" button.
 3. The current weather conditions will be displayed below.
-4. The menu shows weather conditions the next seven days.
+4. The menu shows weather conditions for the next seven days.
 
 ## API
 
