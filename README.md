@@ -29,7 +29,7 @@ Welcome to the Web Weather App! This application allows users to check the curre
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/web-weather-app.git
+  https://github.com/BestXigbekele/WEATHER-APP.git
    ```
 2. Navigate to the project directory:
    ```bash
