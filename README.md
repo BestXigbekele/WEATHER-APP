@@ -45,7 +45,7 @@ Welcome to the Web Weather App! This application allows users to check the curre
 
 ## API
 
-This application utilizes the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data. You will need an API key to use it. Sign up and replace `YOUR_API_KEY` in the JavaScript code with your actual API key.
+This application utilizes the [Weather API](https://api.weatherapi.com) to fetch weather data. You will need an API key to use it. Sign up and replace `YOUR_API_KEY` in the JavaScript code with your actual API key.
 
 ## Contributing
 
