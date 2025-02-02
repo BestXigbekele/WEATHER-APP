@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>B. weather</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel='stylesheet'
+            type='text/css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    </head>
+
+    <body class="overflow-scroll overflow-lg-hidden  overflow-md-hidden overflow-sm-scroll">
+        <div class="container-fluid px-1 px-sm-3 py-4 mx-auto">
+            <div class="row d-flex justify-content-center">
+                <div class="row card0">
+
+
+                    <div class="card1 col-lg-8 col-md-7 position-relative">
+                        <div class="position-absolute top-0 start-0 menu-items" id="menu-items">
+                            <button class="menu p-2" id="menu-close">close</button>
+                            <div class=" row px-2 pt-2" id="forecast">
+
+
+                            </div>
+                        </div>
+
+
+                        <button class="menu p-2" id="menu">Menu</button>
+                        <div class="text-center">
+                            <img class="image mt-5" src="https://i.imgur.com/M8VyA2h.png">
+                        </div>
+                        <div class="row px-3 mt-3 mb-3" id="current">
+
+
+                        </div>
+                    </div>
+                    <div class="card2 col-lg-4 col-md-5">
+                        <div class="row px-3">
+
+                            <form id="weather_form"
+                                style="width: 100%; border:0px solid black; display: flex;flex-direction: row;">
+                                <input type="text" name="location" placeholder="Another location" id="cityform"
+                                    class="mb-5">
+                                <button type="submit" class="fa fa-search mb-5 mr-0 text-center"
+                                    style="border: 0px solid black;"></button>
+                            </form>
+                        </div>
+                        <div class="mr-5">
+                            <p class="light-text suggestion" data-term="Birmingham">Birmingham</p>
+                            <p class="light-text suggestion" data-term="Manchester">Manchester</p>
+                            <p class="light-text suggestion" data-term="New York">New York</p>
+                            <p class="light-text suggestion" data-term="California">California</p>
+
+                            <div class="line my-5"></div>
+                            <div id="curr-detail">
+                                <p>Current Weather Details</p>
+                                <div class="row px-3">
+                                    <p class="light-text">Cloudy</p>
+                                    <p class="ml-auto" id="cloud">_ _%</p>
+                                </div>
+                                <div class="row px-3">
+                                    <p class="light-text">Humidity</p>
+                                    <p class="ml-auto" id="humidity">_ _%</p>
+                                </div>
+                                <div class="row px-3">
+                                    <p class="light-text">Wind</p>
+                                    <p class="ml-auto" id="wind">_ _m/s</p>
+                                </div>
+                                <div class="row px-3">
+                                    <p class="light-text">Visibility</p>
+                                    <p class="ml-auto" id="visibility">_ _m</p>
+                                </div>
+                            </div>
+
+                            <div class="line mt-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+
+
+
+        </script>
+        <script>
+
+
+        </script>
+
+
+    </body>
+
+</html>
