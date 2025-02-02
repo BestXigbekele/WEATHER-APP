@@ -59,7 +59,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - [Bootstrap 4](https://getbootstrap.com/)
-- [OpenWeatherMap](https://openweathermap.org/)
+- [Weather API](https://api.weatherapi.com)
 
 ---
 
