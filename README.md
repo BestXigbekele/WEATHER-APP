@@ -33,7 +33,7 @@ Welcome to the Web Weather App! This application allows users to check the curre
    ```
 2. Navigate to the project directory:
    ```bash
-   cd web-weather-app
+   cd WEATHER-APP
    ```
 3. Open `index.html` in your web browser.
 
